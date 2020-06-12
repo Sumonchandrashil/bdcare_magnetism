@@ -1,0 +1,31 @@
+
+
+
+//Import Files
+
+@import "variables";
+@import "common-class";
+@import "mixins";
+
+
+
+.terms-conditions-section{
+  background: $white2;
+  display: block;
+  padding: 30px 0;
+  .terms-conditions{
+    background: $white;
+    display: block;
+    padding: 30px;
+    margin: 30px 0;
+    @include box-shaddow(0 2px 10px -5px $dark-gray);
+    h5{
+      padding: 45px 0 15px;
+      font-weight: 600;
+    }
+    p{
+      padding: 15px 0;
+      text-align: justify;
+    }
+  }
+}

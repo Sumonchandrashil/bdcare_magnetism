@@ -1,0 +1,11 @@
+@mixin radius($property){
+  -webkit-border-radius: $property;
+  -moz-border-radius: $property;
+  border-radius: $property;
+}
+
+@mixin box-shaddow($property){
+  -webkit-box-shadow: $property;
+  -moz-box-shadow: $property;
+  box-shadow: $property;
+}

@@ -1,0 +1,307 @@
+//Import Sass files
+@import "variables";
+@import "mixins";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";;
+}
+
+//Hospital section start
+.hospital-section{
+  //Banner section start
+  .banner-section{
+    height: 80vh;
+    overflow: hidden;
+    display: block;
+    border-bottom: 15px solid $light-default;
+    img{
+      width: 100%;
+    }
+  }
+  //Banner section end
+
+  //Hospital title start
+  .hospital-title{
+    padding: 15px 100px;
+    position: relative;
+    background : #f2f2f2;
+    a{
+      @include box-shadow(0 10px 15px -5px $black);
+      position: absolute;
+      @include radius(50%);
+      top: -80%;
+      width: 220px;
+      height: 220px;
+      overflow: hidden;
+      img{
+        width: 100%;
+        @include radius(50%);
+      }
+    }
+    h1{
+      text-align: center;
+      padding: 30px 0;
+      text-transform: uppercase;
+      color: $light-black;
+      font-weight: 600;
+      font-size: 48px;
+    }
+  }
+  //Hospital title end
+
+  //Highlighted title start
+  .highlight-address{
+    padding: 15px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    div{
+      display: inline-block;
+      float : left;
+    }
+    .address-icon{
+      padding: 15px;
+      i{
+        font-size: 36px;
+        color: $red;
+      }
+    }
+    .address-text{
+      h2{
+        text-align: center;
+        margin: 0;
+        &:first-child{
+          padding: 10px 0 0;
+        }
+        &:last-child{
+          padding: 0 0 10px;
+        }
+      }
+    }
+  }
+  //Highlighted title end
+
+  //Helpline start
+  .helpline{
+    background: linear-gradient(to left, #023145, $default, $light-default);
+    padding: 15px;
+    display: block;
+    h2{
+      text-align: center;
+      color: $white;
+      font-weight: 600;
+      font-size: 48px;
+    }
+  }
+  //Helpline end
+
+  //About section start
+  .about-section{
+    padding: 15px 15px 50px;
+    display: block;
+    background: $default-bg1;
+    .about-title{
+      padding: 15px 0;
+      h2{
+
+      }
+    }
+    .about-text{
+      display: block;
+      background : $white;
+      padding: 30px;
+      @include radius(20px);
+      @include box-shadow(2px 5px 5px -5px $black);
+      p{
+        color: $black;
+        text-align: justify;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.7;
+        padding: 15px 30px;
+      }
+    }
+    .container{
+      padding: 0;
+    }
+  }
+  //About section end
+
+  //Hospital Bio section start
+  .bio-section{
+    padding: 30px 0;
+
+    table{
+      margin: 30px 0;
+      //border: 1px solid $light-default;
+      border-radius: 20px;
+      tbody{
+        tr{
+          td{
+            padding: 15px;
+            margin: 15px 0;
+            border-right: none;
+            &:first-child{
+              padding-right: 15px;
+              width: 40%;
+              font-weight: 600;
+            }
+            &:last-child{
+              border : 1px solid $gray;
+              border-right: none;
+            }
+            span{
+              color: $light-black;
+              font-size: 14px;
+            }
+          }
+          &:nth-of-type(odd){
+            background: $off-white;
+          }
+          &:first-child{
+            td{
+              &:last-child{
+                border-top: none;
+              }
+            }
+          }
+          &:last-child{
+            td{
+              &:last-child{
+                border-bottom: none;
+              }
+            }
+          }
+        }
+      }
+    }
+    .doctor-list{
+      margin: 30px 0;
+      display: block;
+      overflow: hidden;
+      padding-bottom: 15px;
+      @include box-shadow(0 5px 10px -5px $black);
+      h4{
+        border-bottom: 1px solid $gray;
+        padding: 15px;
+        text-align: center;
+        margin: 0;
+      }
+      .get-appointment{
+        background: $orange;
+        padding: 15px;
+        text-align: center;
+        h4, span{
+          color: $white;
+          margin: 0;
+          border: none;
+        }
+        h4{
+          font-weight: 600;
+          font-size: 26px;
+          padding-bottom:5px;
+        }
+      }
+      .doctor-profile{
+        padding: 15px;
+        a{
+          color: $black;
+          text-decoration: none;
+          display: flex;
+          .doctor-photo{
+            width: 60px;
+            height: 60px;
+            @include radius(50%);
+            img{
+              width: 60px;
+              height: 60px;
+            }
+          }
+          .doctor-info{
+            padding-left: 15px;
+            h4, h5{
+              display: block;
+              padding: 0;
+              margin: 0;
+              font-weight: normal;
+              border: none;
+              font-size: 18px;
+              color: $black;
+            }
+            h4{
+              font-weight: 600;
+              padding: 5px 0;
+              text-align: left;
+            }
+          }
+          &:hover{
+            color: $orange;
+          }
+        }
+      }
+    }
+    .single-image-section{
+      margin: 30px 0;
+      padding: 15px 0;
+      .image-list{
+        margin: 15px 0;
+        padding: 15px 0;
+        img{
+          width: 100%;
+          border: 2px solid $light-default;
+        }
+        h5{
+          text-align: center;
+          padding: 5px 0;
+        }
+      }
+    }
+  }
+  //Hospital Bio section end
+
+  //Footer options start
+  .footer-options{
+    background: $light-default;
+    padding: 30px;
+    ul{
+      margin: 0 100px;
+      padding: 0;
+      width: 100%;
+      li{
+        display: inline-block;
+        list-style: none;
+        padding: 15px;
+        a{
+          color: $white;
+        }
+        &:first-child{
+          padding-left: 0;
+        }
+        &:last-child{
+          float: right;
+          a{
+            color: $off-white;
+            text-decoration: none;
+            &:hover{
+              color: $gray;
+            }
+          }
+        }
+      }
+    }
+  }
+  .helpline{
+    h2{
+      a{
+        text-decoration-color: $white !important;
+      }
+    }
+  }
+  //Footer options end
+}
+
+//Hospital section end

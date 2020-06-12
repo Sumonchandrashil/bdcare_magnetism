@@ -1,0 +1,19 @@
+{
+    "/js/services/services.js": "/js/services/services.js",
+    "/js/bdcare/setup/hospital.js": "/js/bdcare/setup/hospital.js",
+    "/js/bdcare/patient_profile.js": "/js/bdcare/patient_profile.js",
+    "/js/bdcare/patient_appointment.js": "/js/bdcare/patient_appointment.js",
+    "/js/bdcare/doctors_profile.js": "/js/bdcare/doctors_profile.js",
+    "/js/bdcare/appointment_booked.js": "/js/bdcare/appointment_booked.js",
+    "/js/bdcare/setup/area.js": "/js/bdcare/setup/area.js",
+    "/css/app.css": "/css/app.css",
+    "/js/help-center/help-center.js": "/js/help-center/help-center.js",
+    "/js/bdcare/setup/speciality.js": "/js/bdcare/setup/speciality.js",
+    "/js/bdcare/setup/health_package.js": "/js/bdcare/setup/health_package.js",
+    "/js/bdcare/setup/facility.js": "/js/bdcare/setup/facility.js",
+    "/js/bdcare/setup/disease.js": "/js/bdcare/setup/disease.js",
+    "/js/bdcare/setup/degree.js": "/js/bdcare/setup/degree.js",
+    "/js/bdcare/setup/city.js": "/js/bdcare/setup/city.js",
+    "/js/bdcare/patient_medication.js": "/js/bdcare/patient_medication.js",
+    "/js/app.js": "/js/app.js"
+}

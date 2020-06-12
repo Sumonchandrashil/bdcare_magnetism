@@ -1,0 +1,28 @@
+@import "variables";
+
+
+.single-page-header{
+  background: $yellow;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  min-height: 150px;
+  .page-title{
+    display: block;
+    width: 50%;
+    float: left;
+    h3{
+      color: $white;
+      font-size: 36px;
+    }
+  }
+  .page-header__icon{
+    display: block;
+    width: 50%;
+    float :right;
+    max-width: 350px;
+    img{
+      width: 100%;
+    }
+  }
+}

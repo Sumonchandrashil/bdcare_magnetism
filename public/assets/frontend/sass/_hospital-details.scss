@@ -1,0 +1,18 @@
+
+
+
+//Import Files
+
+@import "variables";
+@import "common-class";
+@import "mixins";
+
+.hospital-section{
+  .helpline{
+    h2{
+      a{
+        text-decoration-color: $white !important;
+      }
+    }
+  }
+}

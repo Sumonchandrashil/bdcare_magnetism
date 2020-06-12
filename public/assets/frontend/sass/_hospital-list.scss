@@ -1,0 +1,111 @@
+
+
+
+//Import Files
+
+@import "variables";
+@import "common-class";
+@import "mixins";
+
+
+.hospital-list{
+  background: $white2;
+  display: block;
+  .single-page-header{
+    .page-title{
+      padding: 30px 0;
+      h6{
+        color: $off-white;
+      }
+    }
+  }
+  .hospital-list__content{
+    display: block;
+    padding: 15px;
+    max-width: 750px;
+    margin: 0 auto;
+    .hospital__content-row{
+      background: $white;
+      padding: 15px;
+      border: 1px solid #ddd;
+      margin: 5px 0;
+      display: block;
+      @include radius(5px);
+      a{
+        text-decoration: none;
+        display: flex;
+        align-items: flex-start;
+        .hospital__logo{
+          width: 20%;
+          max-width: 80px;
+          padding: 0 15px 0 0;
+          img{
+            width: 100%;
+          }
+        }
+        .hospital__title{
+          width: 35%;
+          padding: 5px 15px;
+          h3{
+            margin: 0;
+            color: #0a6aa1;
+            font-size: 21px;
+            font-weight: 500;
+          }
+        }
+        .hospital__address{
+          width: 30%;
+          padding: 5px 0;
+          p{
+            margin: 0;
+            padding: 0;
+            color: #333;
+          }
+          h6{
+            margin: 0;
+            color: #00a3b6;
+          }
+        }
+        .hospital__view{
+          width: 15%;
+          padding: 5px 0;
+          float: right;
+          text-align: right;
+          button{
+            box-shadow: none;
+            border: none;
+            background: linear-gradient(45deg, #00a3b6, #0a6aa1);
+            color: #fff;
+            padding: 5px 10px;
+            @include radius(3px);
+            cursor: pointer;
+            &:hover{
+              background: linear-gradient(45deg, #0a6aa1, #00a3b6);
+              transition: 0.8s ease;
+            }
+          }
+        }
+      }
+      &:hover{
+        background: linear-gradient(45deg, #0a6aa1, #00a3b6);
+        transition: 0.8s;
+        a{
+          .hospital__title{
+            h3{
+              color: $white;
+            }
+          }
+          .hospital__address{
+            p{
+              color: $white;
+            }
+            h6{
+              color: $yellow;
+            }
+          }
+        }
+      }
+
+    }
+  }
+}

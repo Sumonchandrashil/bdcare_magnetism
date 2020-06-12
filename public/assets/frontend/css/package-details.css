@@ -1,0 +1,89 @@
+/*****/
+    /*Package Details Styles*/
+/**** ====================== ****/
+
+
+.package-details{
+    background : #fff;
+
+}
+
+.package-details .package-details-content{
+    box-shadow: none;
+}
+
+.package-details .package-details-content h4{
+    font-weight: 600;
+    color: #333;
+    padding: 15px 0;
+}
+
+.package-details .package-details-content .package-description p{
+    font-size: 18px;
+}
+
+/*Products info start*/
+.package-details .package-details-content .products-info{
+
+}
+
+.package-details .package-details-content .products-info img{
+    width: 100%;
+}
+
+.package-details .package-details-content .products-info table{
+    width: 100%;
+}
+
+.package-details .package-details-content .products-info table tr td{
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+    font-weight: 600;
+}
+
+.package-details .package-details-content .products-info table tr td:first-child{
+    text-align: left;
+}
+
+.package-details .package-details-content .products-info table tr td:last-child{
+    text-align: right;
+}
+
+.package-details .package-details-content .products-info table tr:last-child{
+    border: none;
+}
+
+.package-details .package-details-content .products-info a{
+    color: #fff;
+    background: #ffb822;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    margin: 15px 0;
+    text-decoration: none;
+}
+
+.package-details .package-details-content .products-info a:hover{
+    background : #0a6aa1;
+}
+
+.package-details .package-details-content .products-info h5{
+    font-size: 14px;
+    padding: 0;
+    font-weight: 600;
+}
+/*Products info end*/
+
+/*Package summary start*/
+.package-details .package-details-content .package-summary h4, h5{
+    font-weight: 600;
+    padding: 15px 0;
+    color: #333;
+}
+
+.package-details .package-details-content .package-summary h5{
+    padding: 15px 0 0;
+    margin: 0;
+}
+/*Package summary end*/
+

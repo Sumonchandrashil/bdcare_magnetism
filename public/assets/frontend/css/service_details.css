@@ -1,0 +1,19 @@
+/* SERVICE DETAILS */
+
+.servicedetails {
+	min-height: 500px;
+	width: 100%;
+	background: #f6f6f6;
+}
+
+.servicedetailsArea h1{
+	font-family: Raleway;
+	color: #0a6aa1;
+}
+.servicedetailsArea p {
+	font-family: Raleway;
+	color: #000;
+}
+
+
+

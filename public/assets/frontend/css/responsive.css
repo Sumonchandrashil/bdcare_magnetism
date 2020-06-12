@@ -1,0 +1,665 @@
+/*//Responsive device*/
+
+
+@media only screen and (min-width: 1440px) and (max-width: 1800px){
+
+}
+
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px){
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px){
+
+    /*Emergency Health Service (Homepage)*/
+    .healthContent p{
+        min-height: 96px;
+    }
+    /*Emergency Health Service (Homepage)*/
+    .bdCareImg{
+        width: 80%;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1023px){
+    .bdCareImg{
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+    /*Filter Section Homepage Start*/
+
+    .select2-container--default .select2-selection--single .select2-selection__rendered{
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    /*.bannerContent .row div{*/
+        /*max-width: 40%;*/
+        /*background: #fff;*/
+    /*}*/
+
+    /*.bannerContent .row div .bannerSearch{*/
+        /*max-width: 40%;*/
+        /*margin: 0 5px 0 0;*/
+    /*}*/
+    /*.bannerContent .row div .bannerSearch:last-child{*/
+        /*margin-right: 0;*/
+    /*}*/
+    /*.bannerContent .row div .bannerSearch .searchBox{*/
+        /*border: none;*/
+    /*}*/
+    /*Filter Section Homepage End*/
+
+    /****----------------------------------------------------------------------->*/
+
+    /*Instant Doctor Homepage Start*/
+    .instant .instantRight a h3{
+        width: 100%;
+    }
+    .instant .instantRight ul{
+        width: 100%;
+    }
+    /*Instant Doctor Homepage End*/
+
+    /****----------------------------------------------------------------------->*/
+
+    /*Consult Online Section Start*/
+    .videoChat .videoChatLeft,
+    .videoChatRight{
+        padding-right: 0;
+    }
+    .videoChat .videoChatLeft a h3,
+    .videoChat .videoChatLeft p,
+    .videoChat .videoChatLeft ul{
+        width: 100%;
+    }
+
+    .videoChatRight .chatImg{
+        width: 80%;
+        margin: 30px auto 0;
+    }
+
+    /*Consult Online Section End */
+
+    /****----------------------------------------------------------------------->*/
+
+    /*Medical Tour Section Start*/
+    .medicalTour .medicalTourRight a h3{
+        width: 100%;
+    }
+    /*Medical Tour Section End*/
+
+    /****----------------------------------------------------------------------->*/
+
+    /*Emergency Health Services (Homepage)*/
+    .healthServices .col-md-3{
+        padding: 0 5px;
+    }
+    .healthServices .healthImg{
+        max-height:133px ;
+    }
+    .healthServices .healthContentCus{
+        padding: 30px 0 30px 10px;
+    }
+    /*Emergency Health Services (Homepage)*/
+
+    /****----------------------------------------------------------------------->*/
+
+    /*Download Apps Section(Homepage) Start*/
+    .bdCareAppRight ul, .downloadApp{
+        width: 100%;
+    }
+    .bdCareImg{
+        width: 80%;
+    }
+    /*Download Apps Section(Homepage) End*/
+
+    /*Dashboard Modal*/
+    .my-appointment .modal-lg{
+        min-width: 650px;
+    }
+}
+
+/*//Common styles for small devices*/
+@media only screen and(max-width: 767px){
+
+    /*Instant Doctor Homepage Start*/
+    .instant .instantRight{
+        height: auto !important;
+    }
+    .instant .instantRight a h3{
+        margin: 0 !important;
+        height: auto !important;
+        padding: 10px !important;
+        width: 100% !important;
+    }
+    .instant .instantRight ul{
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 15px 0 !important;
+    }
+    /*Instant Doctor Homepage End*/
+
+
+    /****----------------------------------------------------------------------->*/
+
+    /*Booking page start*/
+    .askDoctor .container{
+        padding: 0 !important;
+    }
+
+
+    .askDoctor .booking-content .package-summary{
+        padding: 15px 15px 30px;
+    }
+    /*Booking page start*/
+
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    
+    /*Booking page start*/
+    .askDoctor .container{
+        padding: 0 !important;
+    }
+
+
+    .askDoctor .booking-content .package-summary{
+        padding: 15px 15px 30px;
+    }
+    /*Booking page start*/
+    .my-appointment .modal-lg .modal-content{
+        width: 650px !important;
+        overflow-x: auto !important;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+
+    /*Instant Doctor Homepage Start*/
+    .instant .instantRight{
+        height: auto !important;
+    }
+    .instant .instantRight a h3{
+        margin: 0 !important;
+        height: auto !important;
+        padding: 10px !important;
+        width: 100% !important;
+    }
+    .instant .instantRight ul{
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 15px 0 !important;
+    }
+    /*Instant Doctor Homepage End*/
+
+    /****----------------------------------------------------------------------->*/
+
+    /*Consult Online Section Start*/
+    .videoChat .videoChatLeft,
+    .videoChatRight{
+        padding: 30px 0;
+        height: auto;
+        display: block;
+    }
+    .videoChat .videoChatLeft a h3,
+    .videoChat .videoChatLeft p,
+    .videoChat .videoChatLeft ul{
+        width: 100%;
+    }
+
+    .videoChatLeft ul{
+        margin: 0;
+        padding: 0 0 0 15px;
+    }
+
+    .videoChatRight .chatImg{
+        width: 70%;
+        margin: 30px auto 0;
+        height: auto;
+    }
+
+    .tourImg{
+        height: auto !important;
+        width: 90%;
+    }
+
+    /*Consult Online Section End */
+
+
+    /****----------------------------------------------------------------------->*/
+
+    /*Medical Tour Section Start*/
+    .medicalTour .medicalTourRight a h3{
+        width: 100%;
+    }
+    .medicalTourRight a{
+        padding: 15px 0;
+    }
+    /*Medical Tour Section End*/
+
+    /*Source App Start*/
+    .sourceAppRight .tourImg img{
+        width: 100%;
+    }
+    /*Source App Start*/
+
+    /*Ask Doctor (Homepage) Start*/
+    .askContent ul{
+        margin: 0;
+        width: 100%;
+    }
+    .askContent h3{
+        width: 100%;
+        margin: 15px 0;
+        height: auto;
+    }
+    /*Ask Doctor (Homepage) End*/
+
+    /*Source App Start*/
+    .sourceAppLeft, .sourceAppRight{
+        padding: 30px 0;
+    }
+    .sourceAppLeft ul{
+        margin: 0;
+    }
+    /*Source App End*/
+
+
+    /*Download Apps Section(Homepage) Start*/
+    .bdCareAppRight ul, .downloadApp{
+        width: 100%;
+    }
+    .bdCareImg{
+        width: 60%;
+        height: auto;
+        padding: 0;
+    }
+    /*Download Apps Section(Homepage) End*/
+
+
+
+    /*Footer Section Start*/
+    .footer, .widget{
+        margin: 0;
+    }
+    .widget{
+        margin: 0;
+        padding: 15px;
+    }
+
+
+    .widgetLogo{
+        width: 100%;
+    }
+    .widgetArea{
+        height:auto;
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .widgetArea ul li span{
+        padding: 15px 0 0;
+    }
+    /*Footer Section End*/
+
+    /*Foreign Hospitals*/
+    .foreign-hospitals .foreign-hospitals__content .content-form{
+        background: #f3f6f7 !important;
+    }
+    .foreign-hospitals .foreign-hospitals__content .content-form .content-form__row .col3,
+    .foreign-hospitals .foreign-hospitals__content .content-form .content-form__row .col2,
+    .foreign-hospitals .foreign-hospitals__content .content-form .content-form__row .col1
+    {
+        width: 100% !important;
+    }
+    .foreign-hospitals .foreign-hospitals__content .content-form .content-form__row .justify-left-col textarea, .foreign-hospitals .foreign-hospitals__content .content-form .content-form__row .justify-left-col input{
+        width: 67% !important;
+    }
+    .foreign-hospitals .foreign-hospitals__content .content-form .content-form__row .justify-col label{
+        width: 50% !important;
+    }
+    .foreign-hospitals .foreign-hospitals__content .content-form .content-form__row .aligment label{
+        text-align: left !important;
+    }
+
+    /*Foreign Hospitals End*/
+
+    /*Single page header*/
+
+    .single-page-header .page-title, .single-page-header .page-header__icon{
+        width: 100% !important;
+        margin: 0 auto;
+    }
+    .patient-referral .referral-to .refer-to__icon{
+        max-width: 250px !important;
+        margin: 0 auto;
+    }
+
+
+    /*Hospital list Start*/
+    .hospital-list .hospital-list__content .hospital__content-row a .hospital__address{
+        display: none;
+    }
+    .hospital-list .hospital-list__content .hospital__content-row a .hospital__logo{
+        width: 20% !important;
+    }
+    .hospital-list .hospital-list__content .hospital__content-row a .hospital__title{
+        width: 60% !important;
+    }
+    .hospital-list .hospital-list__content .hospital__content-row a .hospital__view{
+        position: absolute;
+        right: 30px;
+        top: 8px;
+    }
+    .hospital-list .hospital-list__content .hospital__content-row a{
+        position: relative;
+    }
+    /*Hospital list End*/
+
+
+    /*Dashboard My Appointment Modal*/
+    .my-appointment{
+        padding-left: 0;
+    }
+    .profileContent{
+        padding: 15px !important;
+    }
+    .my-appointment .modal-lg .modal-content{
+        width: 650px !important;
+        overflow-x: auto;
+    }
+    .my-appointment .modal-lg .modal-content table tr th:nth-child(3){
+        min-width: 120px !important;
+        display: block;
+    }
+
+    /*Profile info Clinic Details modal*/
+    .clockpicker-popover{
+        left: 45px !important;
+        top: 1136px !important;
+    }
+
+}
+
+@media only screen and (min-width: 425px) and (max-width: 479px){
+
+    /*Booking page start*/
+    .askDoctor .container{
+        padding: 0 !important;
+    }
+
+
+    .askDoctor .booking-content .package-summary{
+        padding: 15px 15px 30px;
+    }
+    /*Booking page start*/
+
+    /****----------------------------------------------------------------------->*/
+
+    /*Medical Tour Start*/
+    .medicalTourLeft h1, .medicalTourLeft h1 span{
+        font-size: 30px;
+    }
+    /*Medical Tour End*/
+
+    /****----------------------------------------------------------------------->*/
+
+    /*Emergency Health Services (Homepage)*/
+    .healthContent .healthImg{
+        height: auto !important;
+    }
+    .healthContent h4, .healthContent p{
+        height: auto;
+        min-height: 50px;
+    }
+    .healthContent h5{
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        color: #fff;
+        transition: 0.5s;
+        font-weight: bold;
+        cursor: pointer;
+        padding: 10px;
+        margin-top: 0;
+        height: auto;
+    }
+    /*Emergency Health Services (Homepage)*/
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px){
+
+    /*Instant Doctor Homepage Start*/
+    .instant .instantRight{
+        padding: 30px 0;
+    }
+    /*Instant Doctor Homepage End*/
+
+
+    /*Booking page start*/
+    .askDoctor .container{
+        padding: 0 !important;
+    }
+
+
+    .askDoctor .booking-content .package-summary{
+        padding: 15px 15px 30px;
+    }
+    /*Booking page start*/
+
+    /****----------------------------------------------------------------------->*/
+
+    /*Medical Tour Start*/
+    .medicalTourLeft h1, .medicalTourLeft h1 span{
+        font-size: 30px;
+    }
+
+    .tourImg{
+        width: 90% !important;
+    }
+    /*Medical Tour End*/
+
+
+    /****----------------------------------------------------------------------->*/
+
+    /*Emergency Health Services (Homepage)*/
+    .healthContent .healthImg{
+        height: auto !important;
+    }
+    /*Emergency Health Services (Homepage)*/
+
+    /****----------------------------------------------------------------------->*/
+
+    /*Emergency Health Services (Homepage)*/
+    .healthContent .healthImg{
+        height: auto !important;
+    }
+    .healthContent h4, .healthContent p{
+        height: auto;
+        min-height: 50px;
+    }
+    .healthContent h5{
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        color: #fff;
+        transition: 0.5s;
+        font-weight: bold;
+        cursor: pointer;
+        padding: 10px;
+        margin-top: 0;
+        height: auto;
+    }
+    /*Emergency Health Services (Homepage)*/
+
+
+
+}
+
+@media only screen and (min-width: 360px) and (max-width: 374px){
+
+    /*Booking page start*/
+    .askDoctor .container{
+        padding: 0 !important;
+    }
+
+
+    .askDoctor .booking-content .package-summary{
+        padding: 15px 15px 30px;
+    }
+    /*Booking page start*/
+
+
+
+    /****----------------------------------------------------------------------->*/
+
+    /*Emergency Health Services (Homepage)*/
+    .healthContent .healthImg{
+        height: auto !important;
+    }
+    /*Emergency Health Services (Homepage)*/
+
+    /****----------------------------------------------------------------------->*/
+
+    /*Emergency Health Services (Homepage)*/
+    .healthContent .healthImg{
+        height: auto !important;
+    }
+    .healthContent h4, .healthContent p{
+        height: auto;
+        min-height: 50px;
+    }
+    .healthContent h5{
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        color: #fff;
+        transition: 0.5s;
+        font-weight: bold;
+        cursor: pointer;
+        padding: 10px;
+        margin-top: 0;
+        height: auto;
+    }
+    /*Emergency Health Services (Homepage)*/
+
+
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 359px){
+
+    /*Filter Section Homepage Start*/
+    .select2-dropdown{
+        min-width: 288px;
+    }
+    .searchBox ul li i{
+        margin-left: -3px;
+        font-size: 16px;
+        padding: 1px 0;
+    }
+    .searchBox ul li:last-child{
+        padding-left: 16px;
+    }
+
+    .banner .container .col-md-12{
+        padding: 0;
+    }
+
+    .searchBox ul #doctor_name{
+        padding-left: 16px !important;
+    }
+
+    .tourImg{
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    /*Filter Section Homepage End*/
+
+    /****----------------------------------------------------------------------->*/
+
+    /*Instant Doctor Homepage Start*/
+    .instant .instantRight{
+        padding: 30px 0;
+    }
+    /*Instant Doctor Homepage End*/
+
+    /****----------------------------------------------------------------------->*/
+
+    /*Consult Online Section Start*/
+
+    .videoChatLeft ul{
+        margin: 0;
+        padding: 0;
+    }
+
+    /*Consult Online Section End*/
+
+    /****----------------------------------------------------------------------->*/
+
+    /*Medical Tour Start*/
+    .medicalTourLeft h1, .medicalTourLeft h1 span{
+        font-size: 28px;
+    }
+    /*Medical Tour End*/
+
+
+
+    /*Booking page start*/
+    .askDoctor .container{
+        padding: 0 !important;
+    }
+
+
+    .askDoctor .booking-content .package-summary{
+        padding: 15px 15px 30px;
+    }
+    /*Booking page start*/
+
+
+    /****----------------------------------------------------------------------->*/
+
+    /*Emergency Health Services (Homepage)*/
+    .healthContent .healthImg{
+        height: auto !important;
+    }
+    /*Emergency Health Services (Homepage)*/
+
+    /****----------------------------------------------------------------------->*/
+
+    /*Emergency Health Services (Homepage)*/
+    .healthContent .healthImg{
+        height: auto !important;
+    }
+    .healthContent h4, .healthContent p{
+        height: auto;
+        min-height: 50px;
+    }
+    .healthContent h5{
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+        color: #fff;
+        transition: 0.5s;
+        font-weight: bold;
+        cursor: pointer;
+        padding: 10px;
+        margin-top: 0;
+        height: auto;
+    }
+    /*Emergency Health Services (Homepage)*/
+
+
+}

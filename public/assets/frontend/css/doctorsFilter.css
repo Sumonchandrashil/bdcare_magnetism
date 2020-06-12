@@ -1,0 +1,579 @@
+.filteredboxArea/* SEARCH TOP */
+
+.no-padding{
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.searchTop {
+	min-height: 50px;
+	width: 100%;
+	background: #0097b9;
+	margin-bottom: 15px;
+	padding: 15px;
+}
+
+.searchArea {
+	padding-top: 5px;
+	box-sizing: border-box;
+	height: 50px;
+	margin-right: 5px;
+}
+
+.dropdownCustom {
+	margin: 0 auto;
+    height: 34px;
+    width: 150px;
+    font-size: 14px;
+}
+
+.searchArea p {
+	margin-top: 7px;
+	margin-left: 18px;
+}
+
+.searchArea p a span{
+	margin-top: 7px;
+	margin-left: 5px;
+}
+
+.searchArea p a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.searchArea h6{
+	margin-top: 10px;
+	color: #fff;
+}
+
+.areaBox {
+	height: 38px;
+	width: 100%;
+	margin-top: 2px;
+	border: 1px solid #0082a9;
+	background: #fff;
+}
+
+.areaBox ul {
+	margin: 0;
+	margin-left: -35px;
+	margin-top: 10px;
+	max-height: 400px;
+	/*overflow-y: scroll;*/
+}
+.mat_list {
+	overflow-y: scroll;
+}
+.areaBox ul li {
+	list-style: none;
+	float: left;
+}
+
+.areaBox ul li i{
+	list-style: none;
+	float: left;
+	margin-top: 5px;
+	font-size: 14px;
+}
+
+.area {
+	width: 150px;
+	border: none;
+	font-size: 13px;
+}
+
+.filtered {
+	min-height: 400px;
+	width: 100%;
+	background: #f0f0f5;
+	margin-top: -15px;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+}
+
+
+.filtered p {
+	text-align: left;
+	padding-top: 20px;
+	font-size: 13px;
+}
+
+.filtered p span{
+	font-weight: bold;
+}
+
+.filterPanel {
+	height: 180px;
+	width: 100%;
+	padding-top: 15px;
+	box-sizing: border-box;
+	background: #fff;
+	padding-left: 15px;
+	border-top: 2px solid #f0f0f5;
+	display: none;
+}
+
+.filterPanel h1, .callNowTwoPanel h1 {
+	font-size: 20px;
+}
+
+#filterPanel {
+	display: none;
+}
+
+.filter {
+	cursor: pointer;
+}
+
+#filter {
+	cursor: pointer;
+}
+
+.filterPanelArea {
+	min-height: 120px;
+}
+
+.filterPanelArea ul {
+	margin: 0;
+	padding-bottom: 20px;
+}
+
+.filterPanelArea ul li {
+	list-style: none;
+}
+
+.filterPanelArea ul li h4{
+	font-size: 15px;
+	padding-top: 15px;
+	box-sizing: border-box;
+	font-weight: bold;
+	color: #fff;
+}
+
+.filterPanelArea ul li span {
+	font-size: 15px;
+	color: #fff;
+	margin-left: 5px;
+}
+
+.sort {
+	background: #fecb00;
+	margin-left: -60px;
+}
+
+.sort:hover {
+	background: #fecb00;
+	margin-left: -60px;
+}
+
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show > .btn-secondary.dropdown-toggle {
+    color: #fff;
+    background: #fecb00;
+    border-color: #4e555b;
+}
+
+.filteredbox {
+	height: auto;
+	margin-top: 15px;
+}
+
+.filteredboxArea {
+	padding-top: 15px;
+	box-sizing: border-box;
+	height: auto;
+	/*background: #fff;*/
+}
+
+.filteredImg {
+	margin: 0 auto;
+	height: 80px;
+	width: 90px;
+}
+
+.filteredImg img {
+	height: 100%;
+	width: 100%;
+}
+
+.filteredboxArea p {
+	font-size: 10px;
+	/*color: #f0f0f5;*/
+	margin-left: 20px;
+	padding-top: 170px;
+	box-sizing: border-box;
+}
+
+.areaMiddle h3 a {
+	font-size: 17px;
+	color: #0097b9;
+	font-weight: bold;
+}
+
+.areaMiddle p {
+	font-size: 13px;
+	color: #f0f0f5;
+	margin-left: 0px;
+	padding-top: 0;
+	box-sizing: border-box;
+}
+
+.areaMiddle p a {
+	color: #282923;
+}
+
+.areaMiddle ul {
+	margin: 0;
+	margin-left: -40px;
+}
+
+.areaMiddle ul li {
+	list-style: none;
+	float: left;
+	margin-right: 5px;
+}
+
+.badge-secondary {
+	background: #f0f0f5;
+	color: #282923;
+	font-weight: normal;
+}
+
+.areaRight ul {
+	margin: 0;
+}
+
+.areaRight ul li {
+	list-style: none;
+	margin-top: 10px;
+}
+
+.areaRight ul li i {
+	font-size: 15px;
+	margin-right: 10px;
+	color: #0097b9;
+}
+
+.areaRight ul li span {
+	font-size: 15px;
+}
+
+.areaRight ul li p {
+	font-size: 12px;
+	margin-top: -170px;
+	margin-left: 24px;
+}
+
+.callNow {
+	width: 200px;
+	background: #0097b9;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 65px;
+	margin-left: 40px;
+}
+
+.callNowTwo {
+	/*width: 200px;*/
+	background: #0097b9;
+	font-size: 15px;
+	font-weight: bold;
+	/*margin-top: 25px;
+	margin-left: 40px;*/
+}
+
+.callNowTwo i {
+	margin-right: 5px;
+}
+
+.bookAppointment {
+	/*width: 200px;*/
+	background: #0097b9;
+	font-size: 15px;
+	font-weight: bold;
+	/*margin-top: 89px;
+	float: right;*/
+}
+
+.bookAppointment .active {
+	width: 200px;
+	background: #0097b9;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 89px;
+	float: right;
+}
+
+.bookAppointment i {
+	margin-right: 5px;
+}
+
+
+
+.appointmentPanel {
+	display: none;
+	width: 100%;
+	padding-top: 15px;
+	box-sizing: border-box;
+	background: #fff;
+	padding-left: 15px;
+	border-top: 1px solid #fff;
+	min-height: 250px;
+	margin-bottom: 20px;
+}
+
+.list-inline-item{
+	padding-right: 10px;
+}
+
+.appointmentData{
+	
+	border-top: 1px solid #f0f0f5;
+}
+
+.appointmentData p{
+	font-size: 18px;
+	color: #fff;
+	border: 1px solid #0a6aa1;
+	padding: 7px;
+	max-width: 460px;
+	margin: 15px auto;
+	background: #f9c737;
+	border-radius: 5px;
+}
+
+.appointmentData .tab-content #home b{
+	font-style: normal !important;
+	font-size: 21px;
+}
+.appointmentData .tab-content #home span ul{
+	padding: 15px;
+	position: relative;
+	text-align: left;
+}
+.appointmentData .tab-content #home span ul i{
+	position: absolute;
+	left: 41vw;
+	top: 25px;
+	color: #0a6aa1;
+}
+.appointmentData .tab-content #home span ul input{
+	border-radius: 0;
+	margin: 0 auto;
+}
+.appointmentData .tab-content #home span ul input:focus{
+	background: #fbfbfb;
+}
+.appointmentData .tab-content #home span ul .list-inline-item:first-child{
+	margin: 0;
+}
+.appointmentData .tab-content #home span ul .list-inline-item{
+	padding: 5px;
+	margin: 0;
+	line-height: normal !important;
+
+}
+.appointmentData .tab-content #home span ul .list-inline-item a{
+	border-radius: 0;
+	border: 1px solid #ddd;
+}
+.appointmentData .tab-content #home span ul .list-inline-item a:hover{
+	background: #0a6aa1;
+	color: #fff;
+}
+
+.bookingDates{
+	margin-left: 58px;
+	border-bottom: 0px!important;
+}
+
+
+.bookingDates li{
+	padding-right: 30px;
+}
+
+.bookingDates li a {
+	font-size: 15px;
+}
+
+
+.list-inline-item:first-child {
+
+    margin-right: 100px;
+
+}
+
+
+
+.callNow i {
+	margin-right: 5px;
+}
+
+
+.contactPanel {
+	height: 200px;
+	background: #fff;
+	margin-bottom: 20px;
+	border: 1px solid #cdcdcd;
+	display: none;
+	padding: 15px;
+	border-top: 2px solid #fff;
+}
+
+.callNowTwoPanel {
+	height: 200px;
+	background: #fff;
+	margin-bottom: 20px;
+	display: none;
+	padding: 15px;
+	border-top: 2px solid #f0f0f5;
+}
+
+
+
+.contactPanel span {
+	font-size: 15px;
+	color: #282923;
+}
+
+.contactPanel h1 {
+	font-size: 30px;
+	color: #282923;
+}
+
+.contactPanel span {
+	font-size: 15px;
+	color: #282923;
+}
+
+.contactPanel p a {
+	font-size: 15px;
+	text-decoration: none;
+	color: #282923;
+	font-weight: bold;
+}
+
+
+.btn-outline-primary {
+
+}
+
+.filteredbox ul {
+	margin: 0;
+}
+
+.filteredbox ul li {
+	list-style: none;
+}
+
+.filteredbox ul li a {
+	font-size: 13px;
+	color: #282923;
+}
+
+.filteredbox ul li span {
+	font-size: 13px;
+	color: #282923;
+	font-weight: bold;
+}
+
+.filteredbox ul li .badge{
+	white-space: normal !important;
+}
+
+.filteredbox ul li a span {
+	font-weight: bold;
+}
+
+
+.stats {
+	height: 200px;
+	width: 100%;
+	background: #ffffff;
+	box-shadow: 0 1px 2px 1px hsla(0,0%,43%,.14);
+}
+
+.stats h3 {
+	text-align: center;
+	font-size: 40px;
+	padding-top: 15px;
+	box-sizing: border-box;
+	color: #fcbe00;
+}
+
+.stats p {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: -20px;
+	color: #0097b9;
+}
+
+.stats ul {
+	margin: 0;
+}
+
+.stats ul li {
+	list-style: none;
+	margin-top: -35px;
+}
+
+.stats ul li p span {
+	font-weight: bold;
+	text-align: left;
+	font-size: 13px;
+}
+
+.stats ul li p {
+	font-weight: bold;
+	text-align: left;
+	font-size: 13px;
+}
+
+.srBtn {
+	margin-top: 20px;
+}
+
+/*Main filter modify design start*/
+
+.modify-select-result{
+	margin: -43px 0 20px 50px;
+	background: transparent;
+}
+
+.modify-select-result span{
+	top: -41px;
+}
+
+.select2-dropdown{
+	padding: 15px 0;
+	border: none;
+}
+
+
+/*Main filter modify design end*/
+
+
+
+
+
+
+@media(max-width: 480px) {
+	.area {
+		width: 250px;
+	}
+
+	.searchArea {
+		margin-left: 5px;
+	}
+
+	.filteredboxArea {
+		min-height: 100px;
+	}
+
+	.filteredboxArea p {
+		padding-top: 20px;
+	}
+
+}

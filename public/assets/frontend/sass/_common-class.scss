@@ -1,0 +1,32 @@
+
+.clearfix{
+  clear: both;
+}
+.left{  float: left;  }
+.right{  float: right;  }
+
+.col2{ width: 50%;}
+.col3{ width: 75%;}
+.col1{ width: 25%;}
+
+.container-fluid, .container{
+  padding: 0;
+}
+
+%btn-white{
+  max-width: 150px;
+  display: block;
+  text-decoration: none;
+  padding: 8px 15px;
+  background: $white;
+  color: $dark-gray;
+  text-align: center;
+  border: 1px solid $dark-gray;
+  margin: 0 auto;
+  &:hover{
+    background: $blue;
+    color: $white;
+    border: 1px solid $blue;
+    transition: 0.8s ease;
+  }
+}

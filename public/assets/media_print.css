@@ -1,0 +1,35 @@
+.print_links{
+    display: none;
+}
+.m-footer{
+    display: none;
+}
+
+.m-subheader{
+    display: none !important;
+}
+.m-portlet__head{
+    display: none !important;
+}
+
+.m-portlet__head-tools{
+    display: none !important;
+}
+.header-section-hide-print{
+    display: none !important;
+}
+
+@page { margin: 0; }
+
+/*
+.signature-section{
+    display: inline-block !important;
+}
+*/
+.signature-section .signature-right{
+    margin-left: 190px !important;
+}
+
+.signature-section .signature-center{
+    margin-left: 100px !important;
+}

@@ -1,0 +1,217 @@
+
+
+//Import Files
+
+@import "variables";
+@import "common-class";
+@import "mixins";
+
+.patient-referral{
+  .single-page-header{
+    height: auto;
+    padding: 60px 0;
+    background: linear-gradient(45deg, #085a73, #0097b6);
+    .page-title{
+      display: block;
+      width: 50%;
+      h2{
+        color: $white;
+        font-weight: 600;
+        padding-bottom: 30px;
+        margin: 0;
+      }
+      p{
+        color: $white;
+        margin: 0;
+      }
+      h6{
+        color: $yellow;
+        padding: 15px 0 0;
+        font-size: 14px;
+      }
+    }
+    form{
+      .form-group{
+        label{
+          color: $white;
+        }
+        input{
+          @include radius(0);
+        }
+      }
+      .note{
+        color: $white;
+        padding: 5px 0;
+        font-size: 14px;
+        a{
+          text-decoration: none;
+          color: $yellow;
+          &:hover{
+            color: $white;
+            transition: 0.8s ease;
+          }
+        }
+      }
+      .create-profile-btn{
+        padding: 15px 0;
+        a{
+          text-decoration: none;
+          display: block;
+          padding: 10px 15px;
+          background: $yellow;
+          color: $white;
+          text-align: center;
+          font-size: 18px;
+          &:hover{
+            background: $white;
+            color: $dark-gray;
+            transition: 0.8s ease;
+          }
+        }
+      }
+    }
+  }
+  .referral-to{
+    background: linear-gradient(45deg, #0182a9, #0097b6);
+    padding: 30px 30px 0;
+    margin: 30px 0;
+    h3{
+      color: $white;
+      font-weight: 600;
+    }
+    p{
+      color: $white;
+      margin: 0;
+      padding:0;
+    }
+    h4{
+      color: $yellow;
+      font-weight: 600;
+    }
+    .refer-to__icon{
+      max-width: 180px;
+      img{
+        width: 100%;
+      }
+    }
+  }
+  .referral-facilities{
+    display: block;
+    margin: 30px 0;
+    padding: 30px 0;
+    .facility-list{
+      display: block;
+      ul{
+        margin: 0;
+        padding: 0;
+        li{
+          padding: 5px 0;
+          margin: 0;
+          display: flex;
+          list-style: none;
+          align-items: flex-start;
+          i{
+            color: $light-blue;
+            padding: 5px 10px 0 0;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .ensurity-title{
+      //old design
+      //display: flex;
+      //align-items: center;
+      //justify-content: center;
+      text-align: center;
+      padding: 30px 0;
+      h1{
+        color: $dark-gray;
+        width: 50%;
+      }
+      h2{
+        color: $yellow;
+        margin: 0;
+        font-weight: 600;
+      }
+      h5{
+        color: #6D6E71;
+        font-weight: normal;
+      }
+      img{
+        max-width: 350px;
+        margin: 0 auto;
+      }
+    }
+  }
+  .comprehensive-treatment{
+    padding: 30px;
+    margin: 30px 0;
+    background: #f3f3f5;
+    display: block;
+    h2{
+      text-align: center;
+      color: $light-blue;
+      span{
+        font-weight: 600;
+        color: $blue;
+      }
+    }
+    .affiliate-hospitals{
+      display: block;
+      max-width: 290px;
+      margin: 0 auto;
+      h5{
+        text-align: center;
+        margin: 15px 0 0;
+        color: $black;
+        font-weight: 500;
+      }
+      p{
+        color: $dark-gray;
+        margin: 0;
+        padding: 15px;
+        text-align: center;
+      }
+      h6{
+        color: $yellow;
+        padding: 0 0 10px;
+        margin: 0;
+        text-align: center;
+      }
+      .more-btn{
+        padding: 15px 0;
+        a{
+          @extend %btn-white;
+        }
+      }
+    }
+    .patient-block{
+      padding: 25% 0 0;
+      width: 80%;
+      margin: 0 auto;
+      h5{
+        color: $light-blue;
+        width: 80%;
+        margin: 0 auto;
+      }
+      .more-btn{
+        width: 80%;
+        margin: 0 auto;
+        a{
+          @extend %btn-white;
+          max-width: 200px !important;
+          margin: 0;
+        }
+      }
+      .note{
+        color: $dark-gray;
+        padding: 15px;
+        text-align: center;
+        span{
+          color: $black;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,138 @@
+
+
+//Import Files
+
+@import "variables";
+@import "common-class";
+@import "mixins";
+
+.foreign-hospitals{
+  display: block;
+  .single-page-header{
+    .page-title{
+      min-height: 150px;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .foreign-hospitals__content{
+    .content__title{
+      max-width: 250px;
+      margin: 0 auto;
+      h5{
+        background: $white2;
+        padding: 7px 10px;
+        color: $dark-gray;
+        margin: 15px 0;
+        font-weight: normal;
+        text-align: center;
+        border: 1px solid $gray;
+        font-size: 16px;
+      }
+      h4{
+        text-align: center;
+        font-weight: 600;
+      }
+    }
+    .content-sammury{
+      max-width: 750px;
+      margin: 0 auto;
+      p{
+        text-align: justify;
+        border: 1px solid $gray;
+        padding: 15px;
+      }
+      h6{
+
+      }
+    }
+    .content-form{
+      max-width: 950px;
+      margin: 30px auto;
+      padding: 30px;
+      border: 1px solid $gray;
+      height: auto;
+      overflow: hidden;
+      @include box-shaddow(0 2px 10px -5px $dark-gray);
+      .content-form__row{
+        display: block;
+        @extend .clearfix;
+        .col3{width: 70%;}
+        .col1{
+          width: 30%;
+          label{
+            text-align: right;
+          }
+        }
+        .aligment{
+          display: flex;
+          align-items: center;
+          label{padding: 5px; width: 50%; float : left}
+          input{
+            @include radius(0);
+            float: right;
+          }
+        }
+        .form-group{
+          @include radius(0);
+          input[type=file]{
+            border: none;
+          }
+          input, select, textarea{
+            background: $off-white;
+          }
+        }
+        .justify-left-col{
+          label{
+            width: 23%;
+          }
+          textarea, input{
+            width: 77%;
+            margin: 0 0 15px;
+            @include radius(0);
+          }
+        }
+        .justify-col{
+          label{
+            width: auto;
+            font-size: 14px;
+          }
+          span{
+            font-size: 14px;
+            input{
+              margin: 6px 3px;
+            }
+          }
+        }
+      }
+      .terms-conditions{
+        display: block;
+        padding: 15px 0;
+        h5{
+          font-size: 16px;
+          a{
+            text-decoration: none;
+            color: $dark-gray;
+          }
+        }
+      }
+      .content-submit{
+        display: block;
+        a{
+          width: 100%;
+          text-align: center;
+          font-size: 18px;
+          padding: 10px 20px;
+          background: $yellow;
+          color: $white;
+          text-decoration: none;
+          display: block;
+          font-weight: 600;
+          &:hover{
+            background: $blue;
+          }
+        }
+      }
+    }
+  }
+}

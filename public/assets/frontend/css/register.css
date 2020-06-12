@@ -1,0 +1,162 @@
+/* LOGIN */
+
+.no-padding {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.login {
+	min-height: 500px;
+	width: 100%;
+	background: #fff;
+}
+
+.loginBar {
+	height: 50px;
+	background: #f6f6f6;
+	border-top: 1px solid #abb1ba;
+	border-bottom: 1px solid #abb1ba;
+}
+
+.loginBar ul {
+	margin: 0;
+	margin-left: 40%;
+	margin-top: 12px;
+}
+
+.loginBar ul li {
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+}
+
+.loginBar ul li a{
+	text-decoration: none;
+}
+
+.loginBar ul li a i span {
+	text-decoration: none;
+	color: #00a9cb;
+	transition: 0.3s;
+	font-size: 15px;
+}
+
+.loginBar ul li a:hover {
+	color: #0285ab;
+	font-weight: bold;
+}
+
+.loginBar ul li a i {
+	margin-right: 5px;
+}
+
+.loginPanelLeft, .loginPanelRight {
+	min-height: 530px;
+	padding-top: 70px;
+	box-sizing: border-box;
+}
+
+.loginImage {
+	margin: 0 auto;
+	height: 350px;
+	width: 90%;
+}
+
+.loginImage img {
+	height: 100%;
+	width: 100%;
+}
+
+.loginForm {
+	margin: 0 auto;
+	/*min-height: 420px;*/
+	width: 80%;
+	padding: 15px;
+	border: 1px solid #abb1ba;
+}
+
+.remember {
+	margin-top: -13px;
+	font-size: 13px;
+}
+
+.loginBtn {
+	margin-top: 10px;
+	width: 100%;
+	background: #fcbe00;
+	border: none;
+	transition: 0.3s;
+	margin-bottom: 20px;
+}
+
+.gmailLogin {
+	margin-top: 15px;
+	width: 100%;
+	background: #db4437;
+	border: none;
+	transition: 0.3s;
+}
+
+.fbLogin {
+	margin-top: 10px;
+	width: 100%;
+	background: #3b5a97;
+	border: none;
+	transition: 0.3s;
+}
+
+.loginForm a button i {
+	margin-right: 5px;
+}
+
+
+
+.loginForm a {
+	font-size: 13px;
+}
+
+.loginBtn:hover {
+	background: #03a1c1;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 15px;
+}
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #fcbe00;
+    font-weight: bold;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+@media(max-width: 480px) {
+
+	.loginBar ul {
+		margin: 0;
+		margin-left: 20px;
+		margin-top: 12px;
+	}
+
+	.loginImage {
+		margin: 0 auto;
+		height: 250px;
+		width: 100%;
+	}
+
+	.loginPanelLeft, .loginPanelRight {
+		min-height: 300px;
+		padding-top: 40px;
+	}
+	
+	.loginForm {
+		margin: 0 auto;
+		height: 400px;
+		width: 100%;
+		padding: 15px;
+		margin-bottom: 40px;
+	}
+
+}

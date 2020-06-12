@@ -1,0 +1,224 @@
+/* HOME FOR HEALTH */
+
+.homeForHealth{
+	min-height: 700px;
+	width: 100%;
+	background: #f0f0f5;
+}
+
+.homeForHealth h1{
+	text-align: center;
+	font-size: 50px;
+	padding-top: 30px;
+	box-sizing: border-box;
+	color: #0a6aa1;
+}
+
+.homeForHealth p{
+	padding: 20px;
+	font-size: 17px;
+	text-align: justify;
+}
+
+.homeForHealth .bdCareAppRight ul li{
+	display: flex;
+	align-items: flex-start;
+	line-height: 1.6;
+}
+
+.homeForHealth .bdCareAppRight ul li i{
+	padding: 5px 10px 0 0;
+	color: #0a6aa1;
+	font-size: 14px;
+}
+.homeForHealth .bdCareAppRight ul li span{
+	font-size: 16px;
+}
+
+.healthBox {
+	margin: 0 auto;
+	margin-top: 20px;
+	min-height: 350px;
+	width: 80%; 
+	box-shadow: 6px 9px 18px 0px rgba(0,0,0,0.67);
+	transition: 0.3s;
+	border-radius: 5px;
+}
+
+.healthBox:hover {
+	transform: scale(1.01);
+}
+
+.healthBoxImg {
+	height: 250px;
+	width: 100%;
+	
+}
+
+.healthBoxImg img{
+	height: 100%;
+	width: 100%;
+}
+
+.healthBox p{
+	font-size: 15px;	
+}
+
+/* DIVERSE PEOPLE */
+
+.diverse {
+	min-height: 500px;
+	width: 100%;
+	background: url(../images/diverseBg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.diverse h1 {
+	text-align: center;
+	padding-top: 120px;
+	box-sizing: border-box;
+	font-size: 40px;
+	color: #fff;
+}
+
+.diverse p {
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	font-size: 20px;
+	color: #fff;
+}
+
+/* WORK IMPACT */
+
+.workImpacts {
+	min-height: 600px;
+	width:100%;
+	background: #fff;
+}
+
+.workImpacts p {
+	text-align: center;
+	padding-top: 80px;
+	box-sizing: border-box;
+	font-size: 17px;
+	color: #282923;
+}
+
+.workImpactsBox {
+	min-height: 250px;
+	margin-top: 30px;
+}
+
+.ImpactsBoxElement {
+	margin: 0 auto;
+	height: 120px;
+	width: 80%;
+	border-radius: 50%;
+	background: #f0f0f5;
+	border:1px solid #414146;
+}
+
+.ImpactsBoxElement h3{
+	text-align: center;
+	font-size: 60px;
+	font-weight: bold;
+	padding-top: 22px;
+	box-sizing: border-box;
+}
+
+.workImpactsBox h1{
+	text-align: center;
+	font-size: 30px;
+	padding-top: 20px;
+	box-sizing: border-box;
+	font-weight: bold;
+}
+
+
+/* DO GREAT */
+
+.great {
+	min-height: 300px;
+	width: 100%;
+	background: #f0f0f5;
+}
+
+.great h1 {
+	text-align: center;
+	font-size: 40px;
+	padding-top: 40px;
+	box-sizing: border-box;
+	color: #414146;	
+	font-weight: bold;
+}
+
+.great p {
+	text-align: center;
+	font-size: 20px;
+	padding: 20px;
+	box-sizing: border-box;
+	color: #414146;	
+}
+
+/* VIDEO */
+
+.video {
+	min-height: 400px;
+	width: 100%;
+}
+
+.videoFrame{
+	height: 500px;
+	width: 100%;
+}
+
+/* INVESTOR */
+
+.investor {
+	min-height: 300px;
+	width: 100%;
+	background: #fff;
+}
+
+.investor h1 {
+	text-align: center;
+	font-size: 40px;
+	padding: 40px;
+	box-sizing: border-box;
+	color: #414146;
+	font-weight: bold;	
+}
+
+.investorSlider {
+	min-height: 100px;
+	width: 100%;
+}
+
+.investorSliderBox {
+	height: 60px;
+	width: 220px;
+}
+
+.investorSliderBox img{
+	height: 100%;
+	width: 100%;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+    margin-right: 10px;
+
+}
+
+
+
+
+
+@media(max-width: 480px) {
+	.healthBox {
+		width: 90%;
+	}
+}

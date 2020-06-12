@@ -1,0 +1,299 @@
+.mt5 {
+    margin-top: 5px !important
+}
+
+.mr-auto, .mx-auto {
+    margin-top: -26px !important;
+}
+.m-form .m-form__group {
+    padding-top: 0px !important;
+    padding-bottom: 12px !important;
+}
+.m-portlet .m-portlet__head {
+    margin-top: -28px;
+}
+
+.m-portlet .m-portlet__head .m-portlet__head-caption .m-portlet__head-title .m-portlet__head-text {
+    font-size: 20px !important;
+}
+.m-portlet .m-portlet__body {
+    color: #111 !important;
+}
+
+
+.m-form .form-control-label, .m-form .col-form-label, .m-form .m-form__group>label {
+    color: #111 !important;
+}
+
+.form-control {
+    font-size: 16px;
+}
+
+.logo_header {  display: table;  width: 100%;  padding-top: 10rem;  }
+.logo_header>a{ display:table-cell;text-decoration:none}
+.logo_header>a>h1{font-weight:600;font-size:2.7rem}
+.logo_header>a:last-child{text-align:center}
+.logo_header>a:first-child{vertical-align:top}
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   /* Begin body background */
+
+.m-portlet .m-form.m-form--fit>.m-portlet__body {
+    background: #f3f2f2;
+}
+
+.m-portlet .m-portlet__head {
+    background: #f3f2f2;
+}
+
+.m-portlet .m-portlet__head {
+    border-bottom: 1px solid #c4c5d6;
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background: #d7d7e2 !important;
+}
+
+.input-group .input-group-append>.input-group-text, .input-group .input-group-prepend>.input-group-text {
+    background-color: #fff;
+}
+.select-mini{
+    font-size: 31px;
+    height: 10px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    padding: 7px 1.15rem;
+}
+
+.select2-container--default.select2-container--disabled .select2-selection--single{
+    cursor: not-allowed;
+    background: #d7d7e2;
+    border-color: #f4f5f8;
+}
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid #c4c5d6 !important;
+}
+
+
+/* End body background */
+
+/* Start Placeholder Style 19+ */
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+
+    font-style: italic !important;
+    font-size : 13px !important;
+
+
+}
+::-moz-placeholder { /* Firefox 19+ */
+    font-style: italic !important;
+    font-size : 13px !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    font-style: italic !important;
+    font-size : 13px !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+    font-style: italic !important;
+    font-size : 13px !important;
+}
+
+/* End Placeholder Style 19+ */
+
+
+.validation_msg{
+    color: red;
+    font-family: serif;
+}
+
+.validateRq{
+    color: red;
+}
+/* End Placeholder Style 19+ */
+.requiredField{
+    color: red;
+}
+
+/* HTML Number type remove up and down arrow*/
+/* For Firefox */
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+/* Webkit browsers like Safari and Chrome */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/*---DatePicker Disable Color ---*/
+
+.datepicker table tr td.disabled, .datepicker table tr td.disabled:hover {
+
+    color: red !important;
+    cursor: default;
+}
+.heading{
+     margin-left:100px;
+ }
+
+
+.table-stock-report {
+    width: 100%;
+}
+
+.table-stock-report th, .table-stock-report td {
+    padding: -1.25rem;
+    vertical-align: top;
+    border-top: 1px solid #f4f5f8;
+}
+
+.logo_header{  display: table;  width: 100%;  padding-top: 10rem;  }
+.logo_header>a{ display:table-cell;text-decoration:none}
+.logo_header>a>h1{font-weight:600;font-size:2.7rem;color:#000}
+.logo_header>a:last-child{text-align:center}
+.logo_header>a:first-child{vertical-align:top}
+
+/*--- Invoice ---*/
+.m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__logo {
+    display: table;
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container.m-invoice__container--centered {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body.m-invoice__body--centered {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0 0 0;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__footer .m-invoice__table.m-invoice__table--centered {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body--centered .m-invoice__items {
+    /*border-top: 1px solid #ebedf2;*/
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body--centered .m-invoice__items {
+    display: table;
+    width: 100%;
+    padding: 6rem 0 3rem 0;
+    table-layout: fixed;
+}
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body--centered .m-invoice__items .m-invoice__item {
+    display: table-cell;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body--centered  .m-invoice__items .m-invoice__item .m-invoice__subtitle {
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    border-top: 1px solid grey;
+    width: 120px;
+    text-align: center;
+}
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body--centered .m-invoice__items .m-invoice__item>span {
+    display: block;
+}
+
+/*for print*/
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body table tbody tr td {
+    padding: 0rem 1rem;
+    vertical-align: middle;
+    border-top: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body table tbody tr:first-child td {
+    padding-top: 0;
+}
+.m-invoice-2 .m-invoice__wrapper .m-invoice__body table thead tr th {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-top: none;
+}
+
+.m-invoice-2 .m-invoice__wrapper .m-invoice__head .m-invoice__container .m-invoice__items {
+    border-top: 0px solid #ebedf2;
+}
+.print-head-title{
+    color: #3f4047;
+    font-weight: 600;
+    font-size: 2.7rem;
+    text-decoration: none
+}
+
+.signature-section .signature-right{
+    margin-left: 239px !important;
+}
+
+.signature-section .signature-center{
+    margin-left: 100px !important;
+}
+
+/*
+.signature-section{
+    display: none !important;
+}*/
+
+/*--------Permission Page-------------*/
+.module-name{
+    color: #1b1a1a !important;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.m-checkbox-list, .m-radio-list {
+    padding: 0 15px;
+    color: red !important;
+}
+
+.m-form__group.row .m-checkbox-inline, .m-form__group.row .m-radio-inline {
+    margin-top: 5px;
+    padding-left: 40px;
+    color: blue !important;
+}
+
+.m-checkbox {
+    color: #0a0a0a;
+}
+
+/*---------- Menu CSS---------*/
+.m-aside-menu .m-menu__nav>.m-menu__item>.m-menu__heading .m-menu__link-text, .m-aside-menu .m-menu__nav>.m-menu__item>.m-menu__link .m-menu__link-text {
+    font-weight: 600;
+}
+
+.m-aside-menu .m-menu__nav>.m-menu__item .m-menu__submenu .m-menu__item>.m-menu__heading .m-menu__link-text, .m-aside-menu .m-menu__nav>.m-menu__item .m-menu__submenu .m-menu__item>.m-menu__link .m-menu__link-text {
+    font-weight: 600;
+}
+
+
+.btn-brand {
+    background-color: #716aca;
+    border-color: #716aca;
+}
+
+.btn-brand:hover {
+    color: #fff;
+    background-color: #564ec0;
+    border-color: #4d44bd
+}
+
+.btn-brand:focus,
+.btn-brand.focus {
+    -webkit-box-shadow: 0 0 0 .2rem rgba(113, 106, 202, 0.5);
+    box-shadow: 0 0 0 .2rem rgba(113, 106, 202, 0.5)
+}

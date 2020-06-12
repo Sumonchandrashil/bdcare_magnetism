@@ -1,0 +1,48 @@
+/*//Responsive device*/
+/*//Common styles for small devices*/
+@media only screen and (max-width: 767px) {
+  .single-page-header {
+    padding: 30px 15px;
+    height: auto;
+  }
+
+  .patient-referral .single-page-header {
+    padding: 60px 15px;
+  }
+  .patient-referral .single-page-header .page-title {
+    width: 100%;
+  }
+
+  .foreign-hospitals__content .content-sammury h6 {
+    padding: 0 15px !important;
+  }
+
+  .foreign-hospitals__content .content-form {
+    padding: 15px !important;
+  }
+
+  .checkupPriceBox .col-md-6 {
+    width: 50%;
+  }
+
+  .healthCheckup .checkupContent .checkupPriceBox .row {
+    padding: 0;
+  }
+
+  .health-checkup .comments-section .comment-note {
+    width: 100%;
+  }
+  .health-checkup .comments-section .comment-note p {
+    text-align: justify;
+  }
+  .health-checkup .comments-section .comment-block {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .checkupPriceBox {
+    min-height: 80px;
+  }
+}
+
+/*# sourceMappingURL=responsive-latest.css.map */

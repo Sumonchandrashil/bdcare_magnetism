@@ -1,0 +1,74 @@
+//Responsive device
+
+//Import Sass files
+@import "variables";
+
+@media only screen and (min-width: 1440px) and (max-width: 1800px){
+
+}
+
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px){
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px){
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1023px){
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .filteredImg{
+    width: 70px;
+    height: 70px;
+  }
+}
+
+//Common styles for small devices
+@media only screen and (max-width: 767px){
+  .bannerContent{
+    padding: 15px;
+    background: #0a6aa1 !important;
+    display: block;
+    .bannerSearch{
+      .searchBox{
+        .form-control{
+          width: 290px !important;
+        }
+      }
+    }
+  }
+  .healthContent{
+    padding: 0;
+    margin: 0;
+  }
+}
+
+
+//Common styles for small devices end
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+}
+
+@media only screen and (min-width: 425px) and (max-width: 479px){
+
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px){
+
+}
+
+@media only screen and (min-width: 360px) and (max-width: 374px){
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 359px){
+  body{
+    background: #333 !important;
+    padding: 30px;
+  }
+}

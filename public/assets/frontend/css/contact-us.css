@@ -1,0 +1,117 @@
+/* CONTACT */
+
+.contact {
+	min-height: 200px;
+	width: 100%;
+	background: #0097b9;
+}
+
+.contact h1 {
+	padding-top: 40px;
+	font-size: 40px;
+	box-sizing: border-box;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}
+
+.contact p {
+	padding: 20px;
+	font-size: 20px;
+	box-sizing: border-box;
+	text-align: center;
+	color: #fff;
+}
+
+/* CONTACT FORM */
+
+.contactForm {
+	min-height: 600px;
+	width: 100%;
+	background: #fff;
+}
+
+.contactLeft, .contactRight {
+	min-height: 600px;
+	overflow: hidden;
+	/*background: #f0f0f5;*/
+}
+
+.contactLeft {
+	min-height: 600px;
+	/*background: #f0f0f5;*/
+	box-shadow: 0 5px 15px -3px #ddd;
+}
+
+.contactLeft h1 {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 30px;
+	box-sizing: border-box;
+	text-align: center;
+	color: #282923;
+	font-weight: bold;
+}
+
+.submitCustom {
+	margin-top: 20px;
+	background: #0097b9;
+}
+
+.contactRight h1 {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 30px;
+	box-sizing: border-box;
+	text-align: center;
+	color: #282923;
+	font-weight: bold;
+}
+
+.submitCustom {
+	margin-top: 0px;
+	margin-bottom: 15px;
+	background: #fcbe00;
+	width: 100%;
+	border: none;
+}
+
+.getDirection {
+	margin: 15px auto;
+	width:100%;
+	background: #fff;
+}
+
+.location {
+	height: 100%;
+	width: 100%;
+}
+
+
+.textarea {
+	height: 100px;
+	width: 100%;
+	margin-top: 10px;
+	border-radius: 5px;
+	resize: none;
+}
+
+
+
+
+
+/*input[type="text"] {
+	margin-top: 20px;
+}*/
+
+label {
+	margin-top: 10px;
+}
+
+
+@media(max-width: 480px) {
+	.contactLeft {
+		min-height: 250px;
+		margin-bottom: 40px;
+	}
+}

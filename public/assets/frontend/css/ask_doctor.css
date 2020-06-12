@@ -1,0 +1,324 @@
+/* ASK A DOCTOR */
+
+.askDoctor {
+	min-height: 400px;
+	width: 100%;
+	background: #f0f0f5;
+	padding-bottom: 30px;
+}
+
+.askDoctor .package-header{
+	padding: 30px;
+	text-align: center;
+	background: #006283;
+}
+
+.askDoctor .package-header h3, h1{
+	color: #fff;
+}
+
+.askDoctor .package-header h4{
+	color: #ffc107;
+}
+
+.askDoctor .booking-content{
+	display: block;
+	box-shadow: 0 5px 15px -5px #ddd;
+	background : #fff;
+	border-radius: 10px;
+	margin: 30px 0 0;
+	padding: 30px;
+}
+
+.askDoctor .booking-content .package-summary{
+	padding: 0 15px;
+}
+
+.askDoctor .booking-content .package-summary h4{
+	font-weight: 500;
+	padding: 15px 0 0;
+	font-size: 24px;
+	color: #006283;
+}
+.askDoctor .booking-content .package-summary p{
+	padding: 15px 0;
+	border-bottom: 1px dotted #ffd988;
+	font-weight: 500;
+	font-size: 18px;
+	text-align: justify;
+}
+
+.askDoctor .booking-content .package-summary ul{
+	margin: 0;
+	padding: 0;
+}
+
+.askDoctor .booking-content .package-summary ul li{
+	list-style: none;
+	font-size: 18px;
+	padding: 5px 0;
+	border-bottom: 1px solid #fbfbfb;
+}
+
+.askDoctor .booking-content .package-summary ul li i{
+	color: #008738;
+	font-size: 12px;
+	padding: 5px;
+}
+
+.askDoctor .booking-content .package-summary ul li:hover{
+	background : #fbfbfb;
+}
+
+.askDoctor .booking-content .booking-form{
+	display: block;
+	border: 1px solid #ddd;
+	padding: 15px;
+
+}
+
+.askDoctor .booking-content .agree-box label{
+	color: #0a6aa1;
+	font-weight: 500;
+}
+
+.askDoctor .booking-content .agree-box .input[type=checkbox], input[type=radio]{
+	font-size: 14px;
+}
+
+.askDoctor .booking-content .booking-form .form-group input, select{
+	border-radius: 0 !important;
+}
+.askDoctor .booking-content .booking-form .form-group input:focus, askDoctor .booking-content .booking-form .form-group select:focus{
+	border: 1px solid #0a6aa1;
+}
+
+.askDoctor .booking-content .booking-form .form-group{
+	height: auto;
+	overflow: hidden;
+}
+
+.askDoctor .booking-content .booking-form .form-group .form-column{
+	display: block;
+	width: calc(100%/2 - 5px);
+	float: left;
+}
+
+.askDoctor .booking-content .booking-form .form-group .form-column:first-child{
+	margin-right: 5px;
+}
+
+.askDoctor .booking-content .booking-form .form-group .form-column:last-child{
+	margin-left: 5px;
+}
+
+.askDoctor .booking-content .booking-form .form-group label{
+	font-weight: 600;
+}
+
+.askDoctor .booking-content .booking-form .form-group label span{
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.askDoctor .booking-content .booking-form .booking-btn{
+	padding: 15px 0;
+}
+
+.askDoctor .booking-content .booking-form .booking-btn a{
+	color: #fff;
+	background: #ffb822;
+	padding: 7px 15px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	border: none;
+    -webkit-appearance: none;
+}
+
+.askDoctor .booking-content .booking-form .booking-btn a:hover{
+	background: #0a6aa1;
+}
+
+.askDoctorLeft, .askDoctorRight {
+	min-height: 350px;
+	background: #fff;
+	margin-top: 25px;
+}
+
+.askDoctorLeft {
+	padding-left: 7%;
+	box-sizing: border-box;
+}
+
+.askDoctorLeft h1 {
+	font-size: 20px;
+	color: #282923;
+	font-weight: bold;
+	margin: 5px;
+	padding-top: 15px;
+	box-sizing: border-box;
+}
+
+.askDoctorLeft h2 {
+	font-size: 18px;
+	color: #282923;
+	margin: 5px;
+	padding-top: 15px;
+	box-sizing: border-box;
+}
+
+
+.askDoctorLeft h3 {
+	font-size: 15px;
+	color: #282923;
+	margin: 5px;
+}
+
+.symptom_search {
+	margin: 5px;
+	width: 90%;
+	resize: none;
+	height: 50px;
+	border: 1px solid #f0f0f5;
+	border-radius: 2px;
+	color: #000;
+	padding-left: 5px;
+	padding-top: 9px;
+	box-sizing: border-box;
+	font-size: 15px; 
+}
+
+.askDoctorLeft span {
+	margin: 50px;
+}
+
+.selectSpeciality {
+	margin: 5px;
+	height: 40px;
+	width: 90%;
+	background: #fcbe00;
+	cursor: pointer;
+}
+
+.selectSpeciality h3 {
+	text-align: center;
+	padding-top: 10px;
+	color: #fff;
+	box-sizing: border-box;
+}
+
+.specialityPanel {
+	margin: 5px;
+	height: 100px;
+	width: 90%;
+	background: #fff;
+	border: 1px solid #f0f0f5;
+	display: none;
+	margin-top: -4px;
+}
+
+.specialityPanel .col-md-12{
+	padding: 0;
+}
+
+.select_symptom {
+	height: 100px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding: 10px;
+}
+
+.select_symptom ul {
+	margin: 0;
+	padding: 0;
+}
+
+.select_symptom ul li {
+	list-style: none;
+	width: calc(100%/2);
+	display: block;
+	float: left;
+}
+
+.select_symptom ul li span {
+	margin-left: 0px;
+	font-size: 13px;
+}
+
+.mobBtn {
+	margin: 5px;
+	width: 90%;
+	height: 40px;
+	border: 1px solid #f0f0f5;
+	border-radius: 2px;
+	color: #000;
+	padding-left: 5px;
+	box-sizing: border-box;
+	font-size: 15px;
+}
+
+.submitQuestion {
+	width: 90%;
+	background: #0097b9;
+	border: 1px solid #0097b9;
+	cursor: pointer;
+	color: #fff;
+	margin: 5px;
+	height: 40px;
+}
+
+.askDoctorRight h1 {
+	text-align: center;
+}
+
+.askDoctorRight h1 i {
+	font-size: 80px;
+	margin-top: 40px;
+	color: #0097b9;
+}
+
+.askDoctorRight p {
+	text-align: center;
+	color: #fcbe00;
+	font-weight: bold;
+}
+
+.custom_badge_icons {
+	margin: 0;
+	padding: 0;
+}
+
+.custom_badge_icons li {
+	list-style: none;
+	float: left;
+	margin-left: 100px;
+}
+
+
+
+@media(max-width: 480px) {
+
+	.askDoctorLeft {
+		padding-left: 0px;
+		box-sizing: border-box;
+	}
+
+	.specialityPanel {
+		height: 200px;
+	}
+
+	.askDoctorRight {
+		height: 495px;
+	}
+
+	.custom_badge_icons li {
+		margin-left: 70px;
+	}
+
+	.askDoctorRight h1 i  {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+}

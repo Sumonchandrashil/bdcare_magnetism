@@ -1,0 +1,1 @@
+# public\uploads\user_photo must have default picture as "user_photo.png" for android app

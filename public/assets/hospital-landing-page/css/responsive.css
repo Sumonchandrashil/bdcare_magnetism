@@ -1,0 +1,186 @@
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+  .hospital-section .hospital-title {
+    padding: 15px;
+  }
+  .hospital-section .hospital-title a {
+    left: 60px;
+  }
+  .hospital-section .hospital-title h1 {
+    font-size: 30px;
+    padding: 30px 0 30px 140px;
+  }
+  .hospital-section .highlight-address {
+    padding: 30px 60px;
+  }
+  .hospital-section .highlight-address .address-icon {
+    padding: 15px 15px 15px 0;
+  }
+  .hospital-section .highlight-address .address-icon i {
+    font-size: 36px;
+    color: #e4425c;
+  }
+  .hospital-section .highlight-address .address-text h2 {
+    font-size: 21px;
+  }
+  .hospital-section .about-section {
+    padding: 30px;
+  }
+  .hospital-section .about-section .about-text {
+    padding: 15px;
+  }
+  .hospital-section .about-section .about-text p {
+    padding: 15px;
+  }
+  .hospital-section .helpline h2 {
+    font-size: 36px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  .hospital-section .hospital-title {
+    padding: 15px;
+  }
+  .hospital-section .hospital-title a {
+    width: 180px;
+    height: 180px;
+    left: 60px;
+  }
+  .hospital-section .hospital-title h1 {
+    font-size: 30px;
+    padding: 30px 0 30px 190px;
+  }
+  .hospital-section .highlight-address {
+    padding: 30px 60px;
+  }
+  .hospital-section .highlight-address .address-icon {
+    padding: 15px 15px 15px 0;
+  }
+  .hospital-section .highlight-address .address-icon i {
+    font-size: 36px;
+    color: #e4425c;
+  }
+  .hospital-section .highlight-address .address-text h2 {
+    font-size: 21px;
+  }
+  .hospital-section .about-section {
+    padding: 15px;
+  }
+  .hospital-section .about-section .about-text {
+    padding: 15px;
+  }
+  .hospital-section .about-section .about-text p {
+    padding: 0;
+  }
+  .hospital-section .helpline h2 {
+    font-size: 36px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .hospital-section .hospital-title {
+    padding: 15px;
+  }
+  .hospital-section .hospital-title a {
+    width: 180px;
+    height: 180px;
+    left: 60px;
+  }
+  .hospital-section .hospital-title h1 {
+    font-size: 30px;
+    padding: 30px 0 30px 190px;
+  }
+  .hospital-section .highlight-address {
+    padding: 30px 60px;
+  }
+  .hospital-section .highlight-address .address-icon {
+    padding: 15px 15px 15px 0;
+  }
+  .hospital-section .highlight-address .address-icon i {
+    font-size: 36px;
+    color: #e4425c;
+  }
+  .hospital-section .highlight-address .address-text h2 {
+    font-size: 21px;
+  }
+  .hospital-section .about-section {
+    padding: 15px;
+  }
+  .hospital-section .about-section .about-text {
+    padding: 15px;
+  }
+  .hospital-section .about-section .about-text p {
+    padding: 0;
+  }
+  .hospital-section .helpline h2 {
+    font-size: 36px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .hospital-section .hospital-title {
+    padding: 15px;
+  }
+  .hospital-section .hospital-title a {
+    top: -38%;
+    width: 120px;
+    height: 120px;
+  }
+  .hospital-section .hospital-title h1 {
+    padding: 40px 0;
+    font-size: 36px;
+  }
+  .hospital-section .highlight-address .address-icon {
+    padding: 15px 15px 15px 0;
+  }
+  .hospital-section .highlight-address .address-icon i {
+    font-size: 36px;
+    color: #e4425c;
+  }
+  .hospital-section .highlight-address .address-text h2 {
+    font-size: 21px;
+    line-height: 1.4;
+    text-align: left;
+  }
+  .hospital-section .about-section .about-text {
+    padding: 30px;
+  }
+  .hospital-section .about-section .about-text p {
+    padding: 0;
+  }
+  .hospital-section .bio-section {
+    padding: 15px;
+  }
+  .hospital-section .bio-section table {
+    margin: 15px 0;
+  }
+  .hospital-section .footer-options {
+    background: #0097b9;
+    padding: 30px 0;
+  }
+  .hospital-section .footer-options ul {
+    margin: 0 30px;
+    text-align: center;
+  }
+  .hospital-section .footer-options ul li:last-child {
+    border-top: 1px solid #28adcc;
+    display: block;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+  .hospital-section .hospital-title {
+    padding: 15px;
+  }
+  .hospital-section .hospital-title h1 {
+    font-size: 30px;
+    padding: 45px 0 40px;
+  }
+  .hospital-section .about-section .about-text {
+    padding: 15px;
+  }
+  .hospital-section .about-section .about-text p {
+    padding: 0;
+  }
+  .hospital-section .helpline h2 {
+    font-size: 36px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
